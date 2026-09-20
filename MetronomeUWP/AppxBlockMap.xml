@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BlockMap HashMethod="http://www.w3.org/2001/04/xmlenc#sha256" xmlns="http://schemas.microsoft.com/appx/2010/blockmap">
+  <File Name="AppxManifest.xml" Size="2310" LfhSize="46">
+    <Block Hash="ZSs8EilsIhQ+FTdit6ITy79PktyFqiFs1fGQqOjU8KY=" Size="2310"/>
+  </File>
+  <File Name="app.css" Size="12568" LfhSize="37">
+    <Block Hash="Wj/GmW5dhBjIBoUZXrw4/rH4PwuuGKul528x/M7Ui+c=" Size="12568"/>
+  </File>
+  <File Name="app.js" Size="23339" LfhSize="36">
+    <Block Hash="JRjzXGW9N2w11YMc/tVqP9XMWkMahW8+OfAvUWsvNtY=" Size="23339"/>
+  </File>
+  <File Name="assets/SplashScreen.png" Size="7675" LfhSize="53">
+    <Block Hash="uEGxldfyMO2wMIh6bdvGazZtLRnVa88rh4q4e0cMoYg=" Size="7675"/>
+  </File>
+  <File Name="assets/Square150x150Logo.png" Size="4210" LfhSize="58">
+    <Block Hash="vWwDaXPSGP6u8aq6hvvhk+e4uaCpOlmAkgm/uFiGhQ4=" Size="4210"/>
+  </File>
+  <File Name="assets/Square150x150Logo.scale-200.png" Size="9477" LfhSize="68">
+    <Block Hash="ZlorFL79Xvje3sxr7VuZJ3H3hTLcdGK8kvEtgJMIkwc=" Size="9477"/>
+  </File>
+  <File Name="assets/Square310x310Logo.png" Size="9772" LfhSize="58">
+    <Block Hash="JJYhAwKeHF6t8hyNEucxwXraM9gibRcvNKKqC/QrhzY=" Size="9772"/>
+  </File>
+  <File Name="assets/Square44x44Logo.png" Size="1339" LfhSize="56">
+    <Block Hash="pfpleOKrqSVvlV90cutAYUCRU5a2hSIU/oJXGy9VqWE=" Size="1339"/>
+  </File>
+  <File Name="assets/Square44x44Logo.targetsize-24_altform-unplated.png" Size="711" LfhSize="87">
+    <Block Hash="xeONahQGJgRptoaqdLiEcNsjgNcXPJ1FJrWNQmH9ZQQ=" Size="711"/>
+  </File>
+  <File Name="assets/Square44x44Logo.targetsize-44.png" Size="1339" LfhSize="70">
+    <Block Hash="pfpleOKrqSVvlV90cutAYUCRU5a2hSIU/oJXGy9VqWE=" Size="1339"/>
+  </File>
+  <File Name="assets/Square71x71Logo.png" Size="1973" LfhSize="56">
+    <Block Hash="qk2x/iPq4/5OkllNrCuvsxnTKq8t5VeW/ZBPbByCO9g=" Size="1973"/>
+  </File>
+  <File Name="assets/StoreLogo.png" Size="1552" LfhSize="50">
+    <Block Hash="lDmScCmdQ1PfzSwTA9MWDmUs8puS5I/IEkpgZMoBkzY=" Size="1552"/>
+  </File>
+  <File Name="assets/Wide310x150Logo.png" Size="4182" LfhSize="56">
+    <Block Hash="p0I01+BPkKvDvisyDbX3ey55fCwhp6pxr3GDwR50irA=" Size="4182"/>
+  </File>
+  <File Name="index.html" Size="12003" LfhSize="40">
+    <Block Hash="tJSDOb/cxyRcARa8+Ohi8xU7hdE0DVlBXHdA/JCrpa0=" Size="12003"/>
+  </File>
+  <File Name="sounds/pluck_strong.wav" Size="19280" LfhSize="53">
+    <Block Hash="5dYPZ9AAjRiMDdVOS6rqv38x/T2flCbYyk74IQJBbYk=" Size="19280"/>
+  </File>
+  <File Name="sounds/pluck_sub.wav" Size="19280" LfhSize="50">
+    <Block Hash="9c31h5dvv4dN9fluuUH2bKjhfwe7Nke3wepXY01V334=" Size="19280"/>
+  </File>
+  <File Name="sounds/pluck_weak.wav" Size="19280" LfhSize="51">
+    <Block Hash="AZJb3SzexhvEIr0qqRRfzprY4O0324hRFqosZ6RB3xk=" Size="19280"/>
+  </File>
+  <File Name="sounds/risset_drum_strong.wav" Size="19280" LfhSize="59">
+    <Block Hash="aMcdVXH/zE9nszJ3B/rjJDDmbDon3EbVCHgjY0g7cmc=" Size="19280"/>
+  </File>
+  <File Name="sounds/risset_drum_sub.wav" Size="19280" LfhSize="56">
+    <Block Hash="LjyCH/WVTN5ZLT7nipAk1xUB7ICbwodiauZHb9gRAQk=" Size="19280"/>
+  </File>
+  <File Name="sounds/risset_drum_weak.wav" Size="19280" LfhSize="57">
+    <Block Hash="5Ob6ExV/PjQeTBTK0Xgl+whPz+qpydwAxt7ZpkQsqD8=" Size="19280"/>
+  </File>
+  <File Name="sounds/sine_wave_strong.wav" Size="9680" LfhSize="57">
+    <Block Hash="F1SA92iJiUetJkaQPB7w2b8qjHJ5hlPV+2LaImZOv5w=" Size="9680"/>
+  </File>
+  <File Name="sounds/sine_wave_sub.wav" Size="9680" LfhSize="54">
+    <Block Hash="2g7slgSZjf+ItLO/lKsvoVXOXrUc8mo1jHJF9JbdHHc=" Size="9680"/>
+  </File>
+  <File Name="sounds/sine_wave_weak.wav" Size="9680" LfhSize="55">
+    <Block Hash="7yrxXDhcPH+b+X+wwwbn4V8i4yPMZo/5Z/XFpPj7iJw=" Size="9680"/>
+  </File>
+  <File Name="sounds/square_wave_strong.wav" Size="9680" LfhSize="59">
+    <Block Hash="UsFKP3bjLao4mcH/ANWm7L/YBlbVR3GwbPmgEj8AmMw=" Size="9680"/>
+  </File>
+  <File Name="sounds/square_wave_sub.wav" Size="9680" LfhSize="56">
+    <Block Hash="l4z2uZWAHeWGQZmO3+jRsmeKjl5444anuW+9SCR2OEk=" Size="9680"/>
+  </File>
+  <File Name="sounds/square_wave_weak.wav" Size="9680" LfhSize="57">
+    <Block Hash="gLFSdFD/reIkj4GFf2YG4Tf6I/TzL10jDq8dvStfSw4=" Size="9680"/>
+  </File>
+</BlockMap>

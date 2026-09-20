@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+         xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+         xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+         xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
+         IgnorableNamespaces="uap mp uap3">
+  <Identity Name="Bobek.Metronome.Lumia"
+            Publisher="CN=PhilippBobek"
+            Version="1.0.0.0"
+            ProcessorArchitecture="neutral" />
+  
+  <mp:PhoneIdentity PhoneProductId="a4f21b79-85e3-4d62-9e87-194b3017f864"
+                    PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  
+  <Properties>
+    <DisplayName>Metronome</DisplayName>
+    <PublisherDisplayName>Israel Oloruntimilehin</PublisherDisplayName>
+    <Logo>assets\StoreLogo.png</Logo>
+  </Properties>
+  
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.15063.0" />
+  </Dependencies>
+  
+  <Resources>
+    <Resource Language="en-US" />
+  </Resources>
+  
+  <Applications>
+    <Application Id="App"
+                 StartPage="index.html">
+      <uap:VisualElements DisplayName="Metronome"
+                          Description="A simple and elegant metronome"
+                          BackgroundColor="#131316"
+                          Square150x150Logo="assets\Square150x150Logo.png"
+                          Square44x44Logo="assets\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="assets\Wide310x150Logo.png"
+                         Square71x71Logo="assets\Square71x71Logo.png"
+                         Square310x310Logo="assets\Square310x310Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="assets\SplashScreen.png" BackgroundColor="#131316" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" StartPage="index.html">
+          <BackgroundTasks>
+            <Task Type="audio" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap3:Capability Name="backgroundMediaPlayback" />
+  </Capabilities>
+</Package>

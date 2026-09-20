@@ -1,0 +1,790 @@
+/* Metronome UWP Windows 10 Mobile - Android 1:1 Material 3 Theme */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+input, textarea, .number-input {
+    user-select: text !important;
+    -webkit-user-select: text !important;
+    -ms-user-select: text !important;
+    cursor: text !important;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* ==========================================================================
+   THEMES (Explicit CSS color rules for complete EdgeHTML compatibility)
+   ========================================================================== */
+
+/* Dark Theme (Android Material 3 Dark) */
+body, body.theme-dark {
+    background-color: #131316;
+    color: #e3e2e6;
+}
+
+body.theme-dark .app-header {
+    background-color: #131316;
+    color: #e3e2e6;
+}
+
+body.theme-dark .control-label {
+    color: #e3e2e6;
+}
+
+body.theme-dark .control-marking {
+    color: #9fb3f8;
+}
+
+body.theme-dark .m3-track-inactive {
+    background-color: #373e4b;
+}
+
+body.theme-dark .m3-track-active {
+    background-color: #9fb3f8;
+}
+
+body.theme-dark .m3-thumb {
+    background-color: #9fb3f8;
+    box-shadow: 0 0 0 2px #131316;
+}
+
+body.theme-dark .m3-tick {
+    background-color: #131316;
+}
+
+body.theme-dark .number-input {
+    border-color: #44474e;
+    color: #e3e2e6;
+    background-color: transparent;
+}
+
+body.theme-dark .number-input:focus {
+    border-color: #9fb3f8;
+}
+
+body.theme-dark .tonal-btn {
+    background-color: #373e4b;
+    color: #e3e2e6;
+}
+
+body.theme-dark .tonal-btn:active {
+    background-color: #485161;
+}
+
+body.theme-dark .play-btn {
+    background-color: #9fb3f8;
+    color: #131316;
+}
+
+body.theme-dark .play-btn:active {
+    background-color: #b7c7fb;
+}
+
+body.theme-dark .beat-dot {
+    background-color: #564060;
+}
+
+body.theme-dark .beat-dot.gap {
+    background-color: transparent;
+    border-color: #373e4b;
+}
+
+body.theme-dark .beat-dot.blinking {
+    background-color: #ffb4ab;
+}
+
+body.theme-dark .beat-dot.gap.blinking {
+    border-color: #ffb4ab;
+}
+
+body.theme-dark .settings-group-header {
+    color: #9fb3f8;
+}
+
+body.theme-dark .item-title {
+    color: #e3e2e6;
+}
+
+body.theme-dark .item-subtitle {
+    color: #c4c7c5;
+}
+
+body.theme-dark .settings-divider {
+    background-color: #282a2f;
+}
+
+body.theme-dark .modal-card {
+    background-color: #282a2f;
+    color: #e3e2e6;
+}
+
+body.theme-dark .modal-option.selected {
+    color: #9fb3f8;
+}
+
+body.theme-dark .text-btn {
+    color: #9fb3f8;
+}
+
+/* Light Theme (Android Material 3 Light) */
+body.theme-light {
+    background-color: #FDFBFF;
+    color: #1A1C1E;
+}
+
+body.theme-light .app-header {
+    background-color: #FDFBFF;
+    color: #1A1C1E;
+}
+
+body.theme-light .control-label {
+    color: #1A1C1E;
+}
+
+body.theme-light .control-marking {
+    color: #4355B9;
+}
+
+body.theme-light .m3-track-inactive {
+    background-color: #E0E2EC;
+}
+
+body.theme-light .m3-track-active {
+    background-color: #4355B9;
+}
+
+body.theme-light .m3-thumb {
+    background-color: #4355B9;
+    box-shadow: 0 0 0 2px #FDFBFF;
+}
+
+body.theme-light .m3-tick {
+    background-color: #FDFBFF;
+}
+
+body.theme-light .number-input {
+    border-color: #74777F;
+    color: #1A1C1E;
+    background-color: transparent;
+}
+
+body.theme-light .number-input:focus {
+    border-color: #4355B9;
+}
+
+body.theme-light .tonal-btn {
+    background-color: #E0E2EC;
+    color: #1A1C1E;
+}
+
+body.theme-light .tonal-btn:active {
+    background-color: #D2D5E0;
+}
+
+body.theme-light .play-btn {
+    background-color: #4355B9;
+    color: #FFFFFF;
+}
+
+body.theme-light .play-btn:active {
+    background-color: #38479E;
+}
+
+body.theme-light .beat-dot {
+    background-color: #DDE3EA;
+}
+
+body.theme-light .beat-dot.gap {
+    background-color: transparent;
+    border-color: #C4C7C5;
+}
+
+body.theme-light .beat-dot.blinking {
+    background-color: #BA1A1A;
+}
+
+body.theme-light .beat-dot.gap.blinking {
+    border-color: #BA1A1A;
+}
+
+body.theme-light .settings-group-header {
+    color: #4355B9;
+}
+
+body.theme-light .item-title {
+    color: #1A1C1E;
+}
+
+body.theme-light .item-subtitle {
+    color: #43474E;
+}
+
+body.theme-light .settings-divider {
+    background-color: #E0E2EC;
+}
+
+body.theme-light .modal-card {
+    background-color: #F0F4F9;
+    color: #1A1C1E;
+}
+
+body.theme-light .modal-option.selected {
+    color: #4355B9;
+}
+
+body.theme-light .text-btn {
+    color: #4355B9;
+}
+
+/* ==========================================================================
+   APP SHELL & LAYOUT (NO flex gap! Pure margin-based spacing for EdgeHTML)
+   ========================================================================== */
+
+.app-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+.screen.active {
+    display: flex;
+}
+
+.app-header {
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.header-title {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+}
+
+.icon-btn {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-btn:active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 16px 20px 16px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* ==========================================================================
+   BEAT VISUALIZATION AREA
+   ========================================================================== */
+
+.visualization-area {
+    display: flex;
+    justify-content: space-around; /* EdgeHTML-safe even distribution */
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    padding: 0 4px;
+    flex-shrink: 0;
+}
+
+.beat-dot {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.08s ease;
+    margin: 0 4px;
+}
+
+.beat-dot:active {
+    transform: scale(0.92);
+}
+
+.beat-dot.gap {
+    border: 4px solid;
+}
+
+.beat-dot.blinking {
+    transform: scale(1.12);
+}
+
+/* ==========================================================================
+   CONTROLS AREA (Explicit vertical margins to eliminate compression)
+   ========================================================================== */
+
+.controls-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0;
+    padding: 8px 0;
+}
+
+.control-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 24px; /* Explicit row spacing for EdgeHTML */
+}
+
+.control-row:last-child {
+    margin-bottom: 0;
+}
+
+.control-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px; /* Explicit horizontal spacing */
+}
+
+.control-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 14px; /* Ample clearance so vertical thumb bar never overlays title */
+}
+
+.control-right {
+    flex-shrink: 0;
+}
+
+/* Custom M3 Slider Component */
+.m3-slider {
+    flex: 1;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    -ms-touch-action: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.m3-slider-track {
+    position: relative;
+    width: 100%;
+    height: 16px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.m3-track-inactive {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.m3-track-active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 16px;
+    border-radius: 8px;
+    pointer-events: none;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.m3-ticks {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 16px;
+    pointer-events: none;
+}
+
+.m3-tick {
+    position: absolute;
+    top: 6px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.1s ease;
+}
+
+.m3-thumb {
+    position: absolute;
+    top: 50%;
+    width: 4px;
+    height: 38px;
+    border-radius: 2px;
+    transform: translateY(-50%) translateZ(0);
+    -webkit-transform: translateY(-50%) translateZ(0);
+    box-shadow: 0 0 0 2px #131316;
+    pointer-events: none;
+}
+
+/* Outlined Number Box */
+.number-input {
+    width: 68px;
+    height: 52px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    outline: none;
+    -moz-appearance: textfield;
+}
+
+/* ==========================================================================
+   ACTION BUTTONS (Explicit margin spacing)
+   ========================================================================== */
+
+.actions-area {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.actions-row-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px; /* Space between row 1 and play button */
+}
+
+.actions-row-top .action-btn {
+    margin: 0 8px; /* Explicit horizontal spacing between action buttons */
+}
+
+.actions-row-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.action-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.08s ease;
+}
+
+.action-btn:active {
+    transform: scale(0.95);
+}
+
+.tonal-btn {
+    width: 96px;
+    height: 80px;
+    border-radius: 28px;
+}
+
+.play-btn {
+    width: 124px;
+    height: 74px;
+    border-radius: 28px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================================================
+   SETTINGS SCREEN
+   ========================================================================== */
+
+.settings-content {
+    flex: 1 1 0px;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none; /* Eliminates glitchy/flickering scrollbar on EdgeHTML */
+    scrollbar-width: none;
+    touch-action: pan-y;
+    -ms-touch-action: pan-y;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    padding-bottom: 24px;
+}
+
+.settings-content::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.settings-group-header {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px 16px 8px 16px;
+}
+
+.settings-group-header .group-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.settings-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-divider {
+    height: 1px;
+    margin: 12px 16px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    cursor: pointer;
+    min-height: 56px;
+}
+
+.list-item:active {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.item-subtitle {
+    font-size: 14px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Material 3 Switch */
+.m3-switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.m3-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.m3-switch-track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 16px;
+    border: 2px solid #8e9099;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.m3-switch-thumb {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    background-color: #8e9099;
+    transition: 0.2s;
+}
+
+.m3-switch input:checked + .m3-switch-track {
+    background-color: #9fb3f8;
+    border-color: #9fb3f8;
+}
+
+.m3-switch input:checked + .m3-switch-track .m3-switch-thumb {
+    transform: translateX(20px);
+    width: 24px;
+    height: 24px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #131316;
+}
+
+/* ==========================================================================
+   MODAL DIALOGS
+   ========================================================================== */
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 100;
+}
+
+.modal-backdrop.open {
+    display: flex;
+}
+
+.modal-card {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 28px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.modal-card-large {
+    max-width: 360px;
+    max-height: 80vh;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.modal-options-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.modal-option {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.modal-option:active {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.modal-option-radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.modal-option.selected .modal-option-radio::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: currentColor;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.text-btn:active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.modal-info-body {
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-y: auto;
+    margin-bottom: 16px;
+    white-space: pre-wrap;
+    max-height: 50vh;
+}
