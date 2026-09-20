@@ -112,7 +112,7 @@ This repository contains everything needed to build, package, and sign the `.app
 ## Credits & Attribution
 
 - **Port Author & Maintainer**: **Israel Oloruntimilehin** ([@Israeltimi](https://github.com/Israeltimi))
-- **Original Android App**: **Philipp Bobek** ([@bobekph](https://github.com/Kr0oked/Metronome))
+- **Original Android App**: **Philipp Bobek** ([@Kr0oked](https://github.com/Kr0oked/Metronome))
 
 ---
 
