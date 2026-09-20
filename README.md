@@ -7,7 +7,7 @@
 
 A modern, high-performance **Material 3 Metronome** app crafted specifically for **Windows 10 Mobile** Lumia smartphones. 
 
-Inspired by and ported from the open-source Android Metronome by [Philipp Bobek](https://github.com/bobekph/Metronome), this version delivers the modern Google Material 3 interface, low-latency audio scheduling, background playback, and fluid touch physics to Windows Phone—all packed into an ultra-compact **~223 KB** package.
+Inspired by and ported from the open-source Android Metronome by [Philipp Bobek](https://github.com/Kr0oked/Metronome), this version delivers the modern Google Material 3 interface, low-latency audio scheduling, background playback, and fluid touch physics to Windows Phone—all packed into an ultra-compact **~223 KB** package.
 
 ---
 
@@ -34,7 +34,7 @@ Inspired by and ported from the open-source Android Metronome by [Philipp Bobek]
 - **🔒 50-Year Signing Certificate**:
   - Sideload packages are signed with a permanent root certificate valid through **September 19, 2076**—no need to roll back phone clocks or reinstall certs every year.
 - **🪶 Featherweight Footprint**:
-  - Entire `.appx` is only **~223 KB**, compared to 6+ MB on modern platforms.
+  - Entire `.appx` is only **~223 KB**.
 
 ---
 
@@ -112,7 +112,7 @@ This repository contains everything needed to build, package, and sign the `.app
 ## Credits & Attribution
 
 - **Port Author & Maintainer**: **Israel Oloruntimilehin** ([@Israeltimi](https://github.com/Israeltimi))
-- **Original Android App**: **Philipp Bobek** ([@bobekph](https://github.com/bobekph/Metronome))
+- **Original Android App**: **Philipp Bobek** ([@bobekph](https://github.com/Kr0oked/Metronome))
 
 ---
 
