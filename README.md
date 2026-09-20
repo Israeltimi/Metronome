@@ -11,6 +11,18 @@ Inspired by and ported from the open-source Android Metronome by [Philipp Bobek]
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/main_dark.png" width="30%" alt="Dark Theme" />
+  &nbsp;&nbsp;
+  <img src="screenshots/main_light.png" width="30%" alt="Light Theme" />
+  &nbsp;&nbsp;
+  <img src="screenshots/settings.png" width="30%" alt="Settings" />
+</p>
+
+---
+
 ## Features
 
 - **🎨 1:1 Material Design 3**: Fully tailored layout featuring standard M3 typography, pill-shaped sliders, floating play controls, outlined text fields, and theme tokens.
@@ -101,6 +113,10 @@ This repository contains everything needed to build, package, and sign the `.app
 │   ├── app.js               # Audio scheduler, state manager & 60 FPS slider engine
 │   ├── assets/              # App icons, splash screens, and tile assets
 │   └── sounds/              # Audio samples (sine, square, pluck, risset drum)
+├── screenshots/             # Application screenshots
+│   ├── main_dark.png
+│   ├── main_light.png
+│   └── settings.png
 ├── tools/x64/               # Windows SDK build tools (MakeAppx & SignTool)
 ├── build.ps1                # Automated packaging and signing script
 ├── LICENSE                  # GNU General Public License v3.0
