@@ -5,7 +5,7 @@
          xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
          IgnorableNamespaces="uap mp uap3">
   <Identity Name="Bobek.Metronome.Lumia"
-            Publisher="CN=PhilippBobek"
+            Publisher="CN=Israel Oloruntimilehin"
             Version="1.0.0.0"
             ProcessorArchitecture="neutral" />
   
