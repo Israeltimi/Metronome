@@ -1052,9 +1052,9 @@
             if (e) e.preventDefault();
             try {
                 if (window.Windows && Windows.System && Windows.System.Launcher) {
-                    Windows.System.Launcher.launchUriAsync(new Windows.Foundation.Uri("https://github.com/Israeltimi/metronome-windows-10-mobile"));
+                    Windows.System.Launcher.launchUriAsync(new Windows.Foundation.Uri("https://github.com/Israeltimi/Metronome"));
                 } else {
-                    window.open("https://github.com/Israeltimi/metronome-windows-10-mobile", "_blank");
+                    window.open("https://github.com/Israeltimi/Metronome", "_blank");
                 }
             } catch (err) {}
         });

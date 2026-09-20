@@ -5,20 +5,20 @@
 [![Size](https://img.shields.io/badge/package%20size-223%20KB-success.svg)](#features)
 [![License](https://img.shields.io/badge/license-GNU%20GPLv3-blue.svg)](LICENSE)
 
-A modern, high-performance Material 3 **Metronome** app crafted specifically for **Windows 10 Mobile** Lumia smartphones. 
+A modern, high-performance **Material 3 Metronome** app crafted specifically for **Windows 10 Mobile** Lumia smartphones. 
 
-Inspired by and ported from the open-source Android Metronome by [Philipp Bobek](https://github.com/Kr0oked/Metronome), this version delivers the modern Google Material 3 interface, low-latency audio scheduling, background playback, and fluid touch physics to Windows Phone.
+Inspired by and ported from the open-source Android Metronome by [Philipp Bobek](https://github.com/Kr0oked/Metronome), this version delivers the modern Google Material 3 interface, low-latency audio scheduling, background playback, and fluid touch physics to Windows Phone—all packed into an ultra-compact **~223 KB** package.
 
 ---
 
 ## Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/refs/heads/main/MetronomeUWP/Screenshots/main-dark.png" width="30%" alt="Dark Theme" />
+  <img src="https://raw.githubusercontent.com/Israeltimi/Metronome/refs/heads/main/MetronomeUWP/Screenshots/main-dark.png" width="30%" alt="Dark Theme" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/refs/heads/main/MetronomeUWP/Screenshots/main-light.png" width="30%" alt="Light Theme" />
+  <img src="https://raw.githubusercontent.com/Israeltimi/Metronome/refs/heads/main/MetronomeUWP/Screenshots/main-light.png" width="30%" alt="Light Theme" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/refs/heads/main/MetronomeUWP/Screenshots/settings.png" width="30%" alt="Settings" />
+  <img src="https://raw.githubusercontent.com/Israeltimi/Metronome/refs/heads/main/MetronomeUWP/Screenshots/settings.png" width="30%" alt="Settings" />
 </p>
 
 ---
@@ -60,7 +60,7 @@ On your Windows 10 Mobile phone:
 ---
 
 ### Method 1: Direct on Phone (Recommended)
-1. Download `Metronome_TestCert.cer` and `Metronome_1.0.0.0_Lumia.appx` from the [Releases](https://github.com/Israeltimi/metronome-windows-10-mobile/releases) page onto your phone (or transfer via USB into the **Downloads** folder).
+1. Download `Metronome_TestCert.cer` and `Metronome_1.0.0.0_Lumia.appx` from the [Releases](https://github.com/Israeltimi/Metronome/releases) page onto your phone (or transfer via USB into the **Downloads** folder).
 2. Open the **File Explorer** app on your phone.
 3. Tap **`Metronome_TestCert.cer`** and tap **Install Certificate** (select *Root / Trusted People*). *You only need to do this once.*
 4. Tap **`Metronome_1.0.0.0_Lumia.appx`** and tap **Install**.
@@ -90,8 +90,8 @@ This repository contains everything needed to build, package, and sign the `.app
 ### Build Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Israeltimi/metronome-windows-10-mobile.git
-   cd metronome-windows-10-mobile
+   git clone https://github.com/Israeltimi/Metronome.git
+   cd Metronome
    ```
 2. Run the automated build script in PowerShell:
    ```powershell
@@ -127,7 +127,7 @@ This repository contains everything needed to build, package, and sign the `.app
 
 ## Credits & Attribution
 
-- **Windows Mobile Port Author & Maintainer**: **Israel Oloruntimilehin** ([@Israeltimi](https://github.com/Israeltimi))
+- **Port Author & Maintainer**: **Israel Oloruntimilehin** ([@Israeltimi](https://github.com/Israeltimi))
 - **Original Android App**: **Philipp Bobek** ([@Kr0oked](https://github.com/Kr0oked/Metronome))
 
 ---
