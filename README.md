@@ -14,11 +14,11 @@ Inspired by and ported from the open-source Android Metronome by [Philipp Bobek]
 ## Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/main/MetronomeUWP/screenshots/main_dark.png" width="30%" alt="Dark Theme" />
+  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/refs/heads/main/MetronomeUWP/Screenshots/main-dark.png" width="30%" alt="Dark Theme" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/main/MetronomeUWP/screenshots/main_light.png" width="30%" alt="Light Theme" />
+  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/refs/heads/main/MetronomeUWP/Screenshots/main-light.png" width="30%" alt="Light Theme" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/main/MetronomeUWP/screenshots/settings.png" width="30%" alt="Settings" />
+  <img src="https://raw.githubusercontent.com/Israeltimi/metronome-windows-10-mobile/refs/heads/main/MetronomeUWP/Screenshots/settings.png" width="30%" alt="Settings" />
 </p>
 
 ---
@@ -113,9 +113,9 @@ This repository contains everything needed to build, package, and sign the `.app
 │   ├── app.js               # Audio scheduler, state manager & 60 FPS slider engine
 │   ├── assets/              # App icons, splash screens, and tile assets
 │   ├── sounds/              # Audio samples (sine, square, pluck, risset drum)
-│   └── screenshots/         # Application screenshots
-│       ├── main_dark.png
-│       ├── main_light.png
+│   └── Screenshots/         # Application screenshots
+│       ├── main-dark.png
+│       ├── main-light.png
 │       └── settings.png
 ├── tools/x64/               # Windows SDK build tools (MakeAppx & SignTool)
 ├── build.ps1                # Automated packaging and signing script
