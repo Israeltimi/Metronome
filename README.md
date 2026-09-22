@@ -14,6 +14,10 @@ Inspired by and ported from the open-source Android Metronome by [Philipp Bobek]
 ## Screenshots
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/Israeltimi/Metronome/refs/heads/main/MetronomeUWP/Screenshots/banner.jpg" width="100%" alt="Metronome Banner" />
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/Israeltimi/Metronome/refs/heads/main/MetronomeUWP/Screenshots/main-dark.png" width="30%" alt="Dark Theme" />
   &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/Israeltimi/Metronome/refs/heads/main/MetronomeUWP/Screenshots/main-light.png" width="30%" alt="Light Theme" />
